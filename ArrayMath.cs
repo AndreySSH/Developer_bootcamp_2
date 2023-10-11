@@ -1,5 +1,11 @@
 public static class ArrayMath
 {
+    /// <summary>
+    /// Вычисляет максимальную сумму из стоящих друг за другом m элементов
+    /// </summary>
+    /// <param name="array">Массив</param>
+    /// <param name="m">число элементов для складывания</param>
+    /// <returns></returns>
     public static int BadGetSum(this int[] array, int m = 3)
     {
         int max = 0;
